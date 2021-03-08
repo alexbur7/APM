@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_search_item"
+        android:title="@string/search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_cancel_item"
+        android:title="@string/cancel"
+        app:showAsAction="never"/>
+
+<item
+    android:title="@string/add_user"
+    android:id="@+id/add_user_item"
+    app:showAsAction="never"/>
+
+    <item
+        android:title="@string/exit_account"
+        android:id="@+id/exit_account"
+        app:showAsAction="never"/>
+</menu>
